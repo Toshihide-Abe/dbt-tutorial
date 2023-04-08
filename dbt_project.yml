@@ -36,3 +36,10 @@ models:
     # Applies to all files under models/example/
     example:
       materialized: view
+
+seed:
+  raw_customers:
+    enabled: true
+    files:
+      - name: raw_customers.csv
+        quoting: minimal
